@@ -11,3 +11,15 @@ header {
   color:darkslateblue;
   font-size: 32px ;
 }
+a{
+  color: rgb(227, 97, 162);
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+h1, h2, h3{
+  text-transform: uppercase;
+}
+p{
+  
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"Nunito-ExtraBold" ;
+    src: url(./fonts/Nunito-ExtraBold.ttf);
+}
+p{
+    font-family:"Nunito-ExtraBold" ;
+}
+ 
+table,td{
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table{
+  width: 550px;
+  height: inherit;
+}
+
+.color{
+  background-color:rgb(121, 119, 119);
+  font-weight: bold;
+}
+
+tfoot{
+  font-weight: bold;
+}

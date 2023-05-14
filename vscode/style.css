@@ -19,3 +19,33 @@ div:hover{
   background-color: black;
   color: aliceblue;
 }
+
+.navigation{
+
+}
+
+.link-list li {
+  display: inline;
+margin-top: 40px;
+}
+
+.page-link{
+  background-color: rgb(135, 218, 239);
+  padding: 10px;
+  color: black ;
+
+}
+
+.page-link:hover{
+  background-color: blue;
+  color: antiquewhite;
+
+}
+.page-link:focus{
+  border: 5px solid green;
+  background-color: blueviolet;
+}
+
+.page-link:active{
+  background-color: orange;
+}

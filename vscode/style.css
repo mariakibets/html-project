@@ -5,21 +5,55 @@
 p{
     font-family:"Nunito-ExtraBold" ;
 }
-
-div{
-  width: 100px;
-  height: 100px;
-  border:2px solid black;
-  margin: 10px;
-}
-
-div:nth-child(2n+1){
-  background-color:red;
-}
- div:nth-child(2n+2){
-  background-color: green;
+ .container{
+  background-color: lime;
+  height:800px;
+  width: 80%;
+  margin:0 auto;
  }
 
- div:nth-child(3n+3){
-  background-color:blue;
+ .wrapper{
+  background-color: dodgerblue;
+  width: 80%;
+  height: 800px;
+ }
+
+ .inner{
+  text-align: center;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: forestgreen;
+  border: 3px solid black;
+ }
+ .div1{
+  top: 0;
+  left: 0;
+  position:fixed;
+ background-color: red;
+
+ }
+
+ .div2{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  
+ }
+
+ .div3{
+  position: fixed; 
+  bottom: 0;
+ left:0 ;
+ background-color: green;
+  
+
+ }
+
+ .div4{
+position:fixed;
+bottom: 0;
+right: 0;
+background-color: violet;
  }

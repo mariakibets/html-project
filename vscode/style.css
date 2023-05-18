@@ -5,55 +5,98 @@
 p{
     font-family:"Nunito-ExtraBold" ;
 }
- .container{
-  background-color: lime;
-  height:800px;
-  width: 80%;
-  margin:0 auto;
- }
+ 
+.nav-list{
+  margin:0;
+  padding: 0;
+  font-size: 0;
+}
 
- .wrapper{
-  background-color: dodgerblue;
-  width: 80%;
-  height: 800px;
- }
-
- .inner{
-  text-align: center;
-  font-size: 40px;
-  width: 80px;
-  height: 80px;
-  background-color: forestgreen;
-  border: 3px solid black;
- }
- .div1{
-  top: 0;
-  left: 0;
-  position:fixed;
- background-color: red;
-
- }
-
- .div2{
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: yellow;
+.list-item{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  background-color: rgb(255, 98, 0);
+  padding: 20px;
   
- }
+}
 
- .div3{
-  position: fixed; 
-  bottom: 0;
- left:0 ;
- background-color: green;
+.link{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+
+.sub-nav-list{
+  position: absolute;
+  left: 20px;
+  top: 63px;
+  left: -40px;
+  width: 150px;
   
+ 
+}
 
- }
+.sub-list-item{
+  display: none;
+  background-color: rgb(255, 98, 0);
+  list-style-type: none;
+  padding: 20px;
 
- .div4{
-position:fixed;
-bottom: 0;
-right: 0;
-background-color: violet;
- }
+
+}
+
+.list-item:hover .sub-list-item{
+  display: block;
+}
+
+.sub-sub-nav-list{
+  position: absolute;
+  width: 150px;
+  display: block;
+  top: 126px;
+  left:150px;
+
+}
+
+.sub-sub-list-item{
+  display: none;
+  background-color: rgb(255, 98, 0);
+  padding: 20px; 
+}
+
+.sub-list-item:hover .sub-sub-list-item{
+  display: block;
+  color: rgb(223, 68, 21);
+}
+
+.sub-sub-sub-nav-list{
+  position: absolute;
+  width: 150px;
+  display: block;
+  top: 126px;
+  left: 150px;
+}
+
+.sub-sub-sub-list-item{
+  background-color: rgb(255, 98, 0);
+  padding: 20px; 
+  display: none;
+}
+ 
+.sub-sub-list-item:hover .sub-sub-sub-list-item{
+  display: block;
+
+}
+
+.list-item:hover:hover,
+.sub-list-item:hover,
+.sub-sub-list-item:hover,
+.sub-sub-sub-list-item:hover{
+  background-color: rgb(234, 62, 19);
+}
+
+
+
+ 

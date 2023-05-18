@@ -5,3 +5,15 @@ p{
 h1, h2 {
     color:mediumblue
 }
+ 
+.br{
+    background-color:rgb(244, 213, 173) ;
+}
+
+.color{
+    color: rgb(68, 77, 106);
+}
+
+.bord{
+    border: 5px solid blue;
+}

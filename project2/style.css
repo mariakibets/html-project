@@ -1,8 +1,34 @@
-p{
-    font-family: 'Courier New', Courier, monospace;
+@font-face {
+    font-family: "LALALA";
+    src: url(./fonts/RubikPixels-Regular.ttf);
 }
 
 p::first-letter{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family:"LALALA";
 }
+
+p::first-line{
+    background-color: rgb(230, 107, 243);
+}
+
+p::selection{
+    background-color: yellow;
+    color: palevioletred;
+}
+
+.color{
+    color: rgb(103, 10, 174);
+}
+
+p::before{
+   content: "\0022"; 
+   color: rgb(103, 10, 174);
+  
+}
+ p::after{
+    content:"\0022";
+    color: rgb(103, 10, 174);
+    font-family:"LALALA";
+    font-size: 40px;
+ }

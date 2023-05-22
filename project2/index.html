@@ -9,21 +9,54 @@
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <article>
-        <p class="color">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi fuga
-          eum tenetur eius incidunt optio facere laborum sit magnam esse
-          praesentium veniam, suscipit tempore natus nihil totam, adipisci
-          soluta facilis recusandae repudiandae modi vero expedita explicabo?
-          Vel ullam, quo ea pariatur consectetur nihil esse. A, tenetur
-          praesentium? Tenetur eos deserunt eius impedit totam autem at fuga rem
-          modi adipisci nam dolorum, inventore, unde libero voluptatum quis
-          voluptatibus beatae non odio aperiam laboriosam consequuntur repellat
-          voluptate ea. 
-          Facere eveniet illo iste?
-        </p>
-      </article>
-    </main>
+   <form action="">
+    <h1>Travel reservation form</h1>
+    <h2 class="star">denotes mandatary</h2>
+    <form  class="form">
+      <label> Full name*:
+        <input type="text" name="FullNamme" placeholder="FirstName LastName">
+     </label>
+
+     <label >Email address*: 
+      <input type="text" name="email" placeholder="EMAIL_ADDRESS">
+     </label>
+
+     <label >Select Tour Package*: 
+      <select name="package">
+        <option value="Goa">Goa</option>
+        <option value="Malibu">Malibu</option>
+      </select>
+     </label>
+
+     <br/>
+
+     <label>Arriaval date*: 
+      <input type="date" name="arriavalDate">
+     </label>
+
+       <br/>
+
+     <label>What would you want to avail?*:
+      <br/>
+      Boarding<input type="checkbox" name="avail" value="Boarding">
+      <br/>
+      Fooding <input type="checkbox"  name="avail" value="fooding">
+      <br/>
+      Siht seeing <input type="checkbox" name="avail" value="sighnSeeing">
+     </label>
+
+     <br/>
+
+     <label>Terms and conditions* 
+      <br/>
+      <input type="radio" name="rules" value="agree" checked>I agree
+      <input type="radio" name="rules" value="disagree"> I disagree
+
+     </label>
+     <br/>
+     <button> Complete reservation</button>
+     
+   </form>
+   
   </body>
 </html>
